@@ -33,7 +33,7 @@ class Contact extends Component {
 
           return (
             <div className="card card-body mb-3">
-              <h2>
+              <h5>
                 {name}{" "}
                 <i
                   className="fas fa-caret-down"
@@ -51,7 +51,7 @@ class Contact extends Component {
                     style={{ cursor: "pointer" }}
                   ></i>
                 </Link>
-              </h2>
+              </h5>
 
               {moreDitales ? (
                 <ul className="list-group">
